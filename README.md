@@ -4,7 +4,7 @@ This is the official submission for the data centric track for the Edge AI Found
 
 ## Overview
 
-This repository contains our submission focusing on model-centric improvements to enhance wake word detection performance on microcontrollers. The main idea behind the submission is to use a smaller custom model architecure based on mcunet-vvw0 with training improvments to achieve a better accuracy.
+This repository contains our submission focusing on model-centric improvements to enhance wake word detection performance on microcontrollers. The main idea behind the submission is to use a smaller custom model architecure based on mcunet architecture with training improvments to achieve a better accuracy.
 
 The submission includes:
 
