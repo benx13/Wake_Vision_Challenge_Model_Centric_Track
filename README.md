@@ -54,20 +54,6 @@ python download.py --dataset Harvard-Edge/Wake-Vision-Train-Large --split train_
 ```
 
 
-
-
-## Repository initialization.
-
-we use the original weights from of mcunet-vww2 from the hanlab repository. for that we fork the repository and the build the rest of the process on top of it.
-
-to load the pretrained weights on vww dataset we use:
-
-```python
-from mcunet.model_zoo import net_id_list, build_model, download_tflite
-print(net_id_list)  # the list of models in the model zoo      
-model, image_size, description = build_model(net_id="mcunet-vww2", pretrained=True)  # you can replace net_id with any other option from net_id_list
-```
-
 ## model architecture:
 We derive the model architecture from mcunet-vww0 by downsizing it following changes:
 
