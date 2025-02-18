@@ -388,9 +388,9 @@ To train the model on a single GPU please refere to the stable_training_singGPU 
 
 ## Results
 
-after 42 epoch we stopped training with best test acc @ 78.51%
+after 42 epochs of pretraining we stopped with best test acc @ 78.51%
 
-we then launched a pretraining on quality dataset we stopped the training at epoch 35 with best test acc @ 80.28%
+we then launched a finetuning on quality dataset we stopped the training at epoch 35 with best test acc @ 80.28%
 
 
 Results could be improved by training furhter, we stop here due to time constraints.
